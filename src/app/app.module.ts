@@ -13,6 +13,7 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { DisplayhelloworldComponent } from './components/displayhelloworld/displayhelloworld.component';
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './components/displayname/displayname.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 
 
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'displayhelloworld', component: DisplayhelloworldComponent },
   { path: 'showhellobutton', component: ShowhellobuttonComponent },
   { path: 'displayname', component: DisplaynameComponent },
+  { path: 'counter', component: CounterComponent },
 
 ];
 
