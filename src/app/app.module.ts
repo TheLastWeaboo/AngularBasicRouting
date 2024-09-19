@@ -20,6 +20,7 @@ import { UsergreetingComponent } from './components/usergreeting/usergreeting.co
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { TextlengthComponent } from './components/textlength/textlength.component';
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
+import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
 
 
 
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'calculator', component: CalculatorComponent},
   { path: 'textlength', component: TextlengthComponent},
   { path: 'currencyconverter', component: CurrencyconverterComponent},
+  { path: 'evenoddchecker', component: EvenoddcheckerComponent},
 
 ];
 
