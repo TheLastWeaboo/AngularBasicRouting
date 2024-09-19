@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {RouterModule, Routes} from '@angular/router';
-import {ReactiveFormsModule} from '@angular/forms';
 import {CommonModule} from "@angular/common";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppComponent} from "./app.component";
@@ -12,6 +12,7 @@ import {SignupComponent} from "./components/signup/signup.component";
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { DisplayhelloworldComponent } from './components/displayhelloworld/displayhelloworld.component';
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
+import { DisplaynameComponent } from './components/displayname/displayname.component';
 
 
 
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'landingpage', component: LandingpageComponent },
   { path: 'displayhelloworld', component: DisplayhelloworldComponent },
   { path: 'showhellobutton', component: ShowhellobuttonComponent },
+  { path: 'displayname', component: DisplaynameComponent },
 
 ];
 
@@ -29,7 +31,8 @@ const routes: Routes = [
   imports: [
     CommonModule,
     BrowserModule,
-    BrowserAnimationsModule,
+    FormsModule,
+    BrowserAnimationsModule, 
     ReactiveFormsModule,
     RouterModule.forRoot(routes, {enableTracing: true}),
   ],
