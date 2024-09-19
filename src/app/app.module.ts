@@ -11,6 +11,7 @@ import {LoginComponent} from "./components/login/login.component";
 import {SignupComponent} from "./components/signup/signup.component";
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { DisplayhelloworldComponent } from './components/displayhelloworld/displayhelloworld.component';
+import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 
 
 
@@ -20,6 +21,8 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'landingpage', component: LandingpageComponent },
   { path: 'displayhelloworld', component: DisplayhelloworldComponent },
+  { path: 'showhellobutton', component: ShowhellobuttonComponent },
+
 ];
 
 @NgModule({
