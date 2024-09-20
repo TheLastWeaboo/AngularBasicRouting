@@ -14,7 +14,7 @@ export class ShowusernameComponent {
   username: string = "";
   displayedUsername: string = "";
 
-  showUsername() {
+  show() {
     this.displayedUsername = this.username;
   }
 }
