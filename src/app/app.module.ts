@@ -38,6 +38,7 @@ import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumb
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
+import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
 
 
 
@@ -75,6 +76,7 @@ const routes: Routes = [
   { path: 'wordcounter', component: WordcounterComponent},
   { path: 'randomnumbergenerator', component: RandomnumbergeneratorComponent},
   { path: 'multiplicationchecker', component: MultiplicationcheckerComponent},
+  { path: 'uppercaseconverter', component: UppercaseconverterComponent},
 
 ];
 
