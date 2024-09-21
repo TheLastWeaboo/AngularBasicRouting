@@ -46,6 +46,8 @@ import { InterestcalculatorComponent } from './components/interestcalculator/int
 import { FibonaccigeneratorComponent } from './components/fibonaccigenerator/fibonaccigenerator.component';
 import { OddsumcalculatorComponent } from './components/oddsumcalculator/oddsumcalculator.component';
 import { CurrencyformatterComponent } from './components/currencyformatter/currencyformatter.component';
+import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
+import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 
 
 
@@ -91,6 +93,8 @@ const routes: Routes = [
   { path: 'fibonaccigenerator', component: FibonaccigeneratorComponent},
   { path: 'oddsumcalculator', component: OddsumcalculatorComponent},
   { path: 'currencyformatter', component: CurrencyformatterComponent},
+  { path: 'randomquotedisplay', component: RandomquotedisplayComponent},
+  { path: 'uppercasegreeting', component: UppercasegreetingComponent},
 
 ];
 
