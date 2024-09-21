@@ -53,6 +53,7 @@ import { RockpaperscissorsComponent } from './components/rockpaperscissors/rockp
 import { OddorevengameComponent } from './components/oddorevengame/oddorevengame.component';
 import { StopwatchesimulatorComponent } from './components/stopwatchesimulator/stopwatchesimulator.component';
 import { RollthediceComponent } from './components/rollthedice/rollthedice.component';
+import { RandomcolorpickerComponent } from './components/randomcolorpicker/randomcolorpicker.component';
 
 
 
@@ -105,6 +106,7 @@ const routes: Routes = [
   { path: 'oddorevengame', component: OddorevengameComponent},
   { path: 'stopwatchesimulator', component: StopwatchesimulatorComponent},
   { path: 'rollthedice', component: RollthediceComponent},
+  { path: 'randomcolorpicker', component: RandomcolorpickerComponent},
 
 ];
 
