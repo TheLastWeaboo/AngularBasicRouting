@@ -50,6 +50,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { RockpaperscissorsComponent } from './components/rockpaperscissors/rockpaperscissors.component';
+import { OddorevengameComponent } from './components/oddorevengame/oddorevengame.component';
 
 
 
@@ -99,6 +100,7 @@ const routes: Routes = [
   { path: 'uppercasegreeting', component: UppercasegreetingComponent},
   { path: 'divisiblechecker', component: DivisiblecheckerComponent},
   { path: 'rockpaperscissors', component: RockpaperscissorsComponent},
+  { path: 'oddorevengame', component: OddorevengameComponent},
 
 ];
 
