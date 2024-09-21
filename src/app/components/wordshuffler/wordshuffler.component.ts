@@ -9,13 +9,13 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './wordshuffler.component.css'
 })
 export class WordshufflerComponent {
-  inputWord: string = ""; // Stores the user's input word
-  shuffledWord: string = ""; // Stores the shuffled word
+  inputWord: string = ""; 
+  shuffledWord: string = "";
 
   shuffle() {
     this.shuffledWord = this.inputWord
-      .split('') // Convert the word into an array of characters
-      .sort(() => Math.random() - 0.5) // Shuffle the array randomly
-      .join(''); // Join the shuffled array back into a string
+      .split('') 
+      .sort(() => Math.random() - 0.5)
+      .join('');
   }
 }
