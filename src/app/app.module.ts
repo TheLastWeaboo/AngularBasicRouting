@@ -52,6 +52,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
 import { RockpaperscissorsComponent } from './components/rockpaperscissors/rockpaperscissors.component';
 import { OddorevengameComponent } from './components/oddorevengame/oddorevengame.component';
 import { StopwatchesimulatorComponent } from './components/stopwatchesimulator/stopwatchesimulator.component';
+import { RollthediceComponent } from './components/rollthedice/rollthedice.component';
 
 
 
@@ -103,6 +104,7 @@ const routes: Routes = [
   { path: 'rockpaperscissors', component: RockpaperscissorsComponent},
   { path: 'oddorevengame', component: OddorevengameComponent},
   { path: 'stopwatchesimulator', component: StopwatchesimulatorComponent},
+  { path: 'rollthedice', component: RollthediceComponent},
 
 ];
 
