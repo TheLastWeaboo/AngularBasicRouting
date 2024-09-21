@@ -51,6 +51,7 @@ import { UppercasegreetingComponent } from './components/uppercasegreeting/upper
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { RockpaperscissorsComponent } from './components/rockpaperscissors/rockpaperscissors.component';
 import { OddorevengameComponent } from './components/oddorevengame/oddorevengame.component';
+import { StopwatchesimulatorComponent } from './components/stopwatchesimulator/stopwatchesimulator.component';
 
 
 
@@ -101,6 +102,7 @@ const routes: Routes = [
   { path: 'divisiblechecker', component: DivisiblecheckerComponent},
   { path: 'rockpaperscissors', component: RockpaperscissorsComponent},
   { path: 'oddorevengame', component: OddorevengameComponent},
+  { path: 'stopwatchesimulator', component: StopwatchesimulatorComponent},
 
 ];
 
