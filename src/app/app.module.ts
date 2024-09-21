@@ -58,6 +58,7 @@ import { NumbersequencegameComponent } from './components/numbersequencegame/num
 import { PrimecheckerComponent } from './components/primechecker/primechecker.component';
 import { GuessthewordgameComponent } from './components/guessthewordgame/guessthewordgame.component';
 import { RandomletterpickerComponent } from './components/randomletterpicker/randomletterpicker.component';
+import { NumbercomparerComponent } from './components/numbercomparer/numbercomparer.component';
 
 
 
@@ -115,6 +116,7 @@ const routes: Routes = [
   { path: 'primechecker', component: PrimecheckerComponent},
   { path: 'guessthewordgame', component: GuessthewordgameComponent},
   { path: 'randomletterpicker', component: RandomletterpickerComponent},
+  { path: 'numbercomparer', component: NumbercomparerComponent},
 
 ];
 
