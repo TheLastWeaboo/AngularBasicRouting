@@ -59,6 +59,7 @@ import { PrimecheckerComponent } from './components/primechecker/primechecker.co
 import { GuessthewordgameComponent } from './components/guessthewordgame/guessthewordgame.component';
 import { RandomletterpickerComponent } from './components/randomletterpicker/randomletterpicker.component';
 import { NumbercomparerComponent } from './components/numbercomparer/numbercomparer.component';
+import { CompoundinterestcalculatorComponent } from './components/compoundinterestcalculator/compoundinterestcalculator.component';
 
 
 
@@ -101,6 +102,7 @@ const routes: Routes = [
   { path: 'bmisolver', component: BmisolverComponent},
   { path: 'usernamevalidator', component: UsernamevalidatorComponent},
   { path: 'interestcalculator', component: InterestcalculatorComponent},
+  { path: 'compoundinterestcalculator', component: CompoundinterestcalculatorComponent},
   { path: 'fibonaccigenerator', component: FibonaccigeneratorComponent},
   { path: 'oddsumcalculator', component: OddsumcalculatorComponent},
   { path: 'currencyformatter', component: CurrencyformatterComponent},
